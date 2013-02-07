@@ -1,0 +1,19 @@
+
+
+*-local.php
+local.php
+database.php
+
+.DS_Store
+Thumbs.db
+
+#phpstorm
+.idea/*
+
+#netbeans project files
+nbproject
+
+#zend studio project files
+.buildpath
+.project
+.settings

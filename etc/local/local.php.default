@@ -1,0 +1,7 @@
+<?php
+
+define('YII_DEBUG', false);
+
+return array(
+
+);
