@@ -33,14 +33,14 @@ By default app has configs priority depends of app type:
 	* console.php - for console app
 	* gearman.php - for gearman worker app
 	* test.php - for phpunit tests
-- for web application uses two configs depend of ot type:
+- for web application uses two additional configs depend of ot type:
 	* frontend.php
 	* backend.php
 - local.php - local config for all application. This config is not under git (added to .gitignore)
 - database.php - main database connection config. This config is not under git (added to .gitignore)
 
 Notice: Url Manager added to shared config, not in web, because console or gearman workers sometimes need to generate
-url address (for example emails).
+url address (for example in emails).
 
 Backend app:
 -------------
