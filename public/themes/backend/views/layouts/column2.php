@@ -15,7 +15,7 @@
     <div class="span10">
         <? $this->renderPartial('//layouts/_flash') ?>
 
-        <? $this->widget('bootstrap.widgets.TbBreadcrumbs', array('links' => $this->breadcrumbs)) ?>
+        <? $this->widget('bootstrap.widgets.TbBreadcrumbs', array('links' => $this->breadcrumbs, 'homeLink' => false)) ?>
 
         <?=$content?>
     </div><!--/span-->
