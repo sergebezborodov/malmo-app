@@ -419,4 +419,14 @@ class Y
     {
         return Yii::app()->getDateFormatter();
     }
+
+    /**
+     * Returns CClientScript
+     *
+     * @return CClientScript
+     */
+    public static function cs()
+    {
+        return Yii::app()->getComponent('clientScript');
+    }
 }
