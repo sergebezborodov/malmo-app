@@ -6,7 +6,7 @@
  *
  * See also MActiveRecord class for config
  */
-class ActveRecord extends MActiveRecord
+class ActiveRecord extends MActiveRecord
 {
 
 }
