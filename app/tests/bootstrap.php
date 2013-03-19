@@ -10,6 +10,5 @@ $test = require ROOT.'/etc/test.php';
 $config = CMap::mergeArray($shared, $test);
 $config = CMap::mergeArray($config, $local);
 
-require_once(dirname(__FILE__) . '/WebTestCase.php');
 
 Yii::createWebApplication($config);
