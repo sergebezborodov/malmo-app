@@ -1,7 +1,15 @@
 <?php
 
 define('YII_DEBUG', false);
+define('BACKEND_SUBDOMAIN', 'admin');
 
 return array(
-
+    'modules' => array(
+        // DONT'T FORGET REMOVE FOR PRODUCTION
+        'gii'=>array(
+            'class'     =>'system.gii.GiiModule',
+            'password'  => '',
+            'ipFilters' =>array('127.1'),
+        ),
+    ),
 );

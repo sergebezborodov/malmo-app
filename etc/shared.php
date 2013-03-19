@@ -32,6 +32,15 @@ return array(
                 '<controller:\w+>/<action:\w+>'          => '<controller>/<action>',
             ),
         ),
+        'log' => array(
+            'class' => 'CLogRouter',
+            'routes' => array(
+                array(
+                    'class'=>'CFileLogRoute',
+                    'levels'=>'error, warning',
+                ),
+            ),
+        ),
     ),
 
     'params' => require 'others/params.php',
